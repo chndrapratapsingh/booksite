@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+header h2{
+    font-family: 'Krona One', sans-serif;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header ul li a{
+    color:black;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: white;
+}
+
+#fast1{
+    background-image: url(pexels-yogendra-singh-1542620.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fast1 h2{
+    font-size: 8rem;
+    color: white;
+}
+
+#fast1 p{
+    font-size: 5rem;
+    color: white;
+    letter-spacing: 0.5rem;
+}
+/* 
+#fast1 button{
+    background: whitesmoke;
+    font-size: 1rem;
+    outline: none;
+    
+} */
+
+#fast1 button a{
+    color: white;
+    text-decoration: none;
+}
+
+#fast1 button:hover{
+    cursor: pointer;
+}
+
+#a{
+   background-color: whitesmoke; 
+}
+
+#a:hover{
+    cursor: pointer;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: white;
+    box-shadow: 0px 0px 6px 0px #80808096;
+    height: 300px;
+    width: 200px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.card h2{
+    border-bottom: 1px solid black;
+}
+
+.card{
+    word-break: break-all;
+}
+
+#fast1 button{
+    border: none;
+    background: none;
+    font-size: 2rem;
+    outline: none;
+    margin-top: 22px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width:740px){
+    header{
+        flex-direction: column;
+    }
+
+    #fast1 h2{
+        font-size: 5.5rem;
+    }
+
+
+    #fast1 P{
+        font-size: 1.5rem;
+        letter-spacing: normal;
+        margin-bottom: 16px;
+    }
+
+    #cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 316px;
+        margin-bottom: 33px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    #card1{
+        margin-top: 13rem;
+    }
+
+    #fast1{
+        height: 83.7;
+    }
+}
